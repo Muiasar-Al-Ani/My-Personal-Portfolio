@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Muiasar Al Ani</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="
+          navbar navbar-expand-lg navbar-light
+          bg-light
+          d-flex
+          justify-content-end
+          bg-transparent
+        "
+      >
+        <div class="container">
+          <a class="navbar-brand nav-link navbar-text" href="#">Muiasar Al Ani</a>
+        </div>
+        <div class="container d-lg-flex justify-content-lg-end">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active navbar-text"  href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active navbar-text" href="./work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active navbar-text" target="_blank" href="https://www.linkedin.com/in/muiasar-al-ani-71476420b/">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active navbar-text" href="./about-me.html"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active navbar-text" id="contact" href="./contact-me.html"
+                >Contact Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active navbar-text"
+                href="assets/images/Muiasar-Al-Ani-Resume.pdf"
+                download
+                >Download Resume</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container row home-main mx-auto mt-5 ">
+      <div class="col-lg-6 col-md-12 ">
+        
+
+<div class="container py-4">
+
+    <form  action="https://formspree.io/f/mwkazejb" method="POST" id="contactForm">
+      
+      <div class="mb-3">
+        <label class="form-label elem-1" for="name">Name</label>
+        <input class="form-control elem-1" name="name" id="name" type="text" placeholder="Name" required/>
+      </div> 
+  
+
+      <div class="mb-3">
+        <label class="form-label elem-1" for="emailAddress">Email Address</label>
+        <input class="form-control elem-1" id="emailAddress" name="_replyto" type="email" placeholder="Email Address" required/>
+      </div>
+  
+
+      <div class="mb-3">
+        <label class="form-label elem-1" for="message">Message</label>
+        <textarea class="form-control elem-1" id="message" type="text" placeholder="Message" name="message" style="height: 10rem;" required></textarea>
+      </div>
+
+      <div class="d-grid" >
+        <button id="button-teal" class="btn btn-lg elem-1" type="submit" name="action">Submit</button>
+      </div>
+  
+      <input type="hidden" name="_subject" value="You've got a new email!">
+      <input type="hidden" name="_captcha" value="false">
+    </form>
+  
+  </div>
+
+
+
+      </div>
+      <div class="col-lg-6 col-md-12 p-5">
+        <h4 class="mb-3 elem-2">Github: <a href="https://github.com/Muiasar-Al-Ani"><span class="px-2">https://github.com/Muiasar-Al-Ani</span></a><h4>
+          <h4 class="mb-3 elem-2">Email: <a href="mailto:muiasar2012@gmail.com"><span class="px-2">muiasar2012@gmail.com</span></a><h4>
+            <h4 class="mb-3 elem-2">Phone: <a href="tel:919-931-8429"><span class="px-2">919-931-8429</span></a><h4></h4>
+            <h4 class="mb-3 elem-2">LinkedIn: <a href="https://www.linkedin.com/in/muiasar-al-ani-71476420b/"><span class="px-2">https://www.linkedin.com/in/muiasar-al-ani-71476420b/</span></a><h4>
+              <a
+                class="text-white elem-2"
+                href="assets/images/Muiasar-Al-Ani-Resume.pdf"
+                download
+                >Download Resume!</a
+              >
+              
+      </div>
+      
+    </main>
+    
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+  
+    <script src="./assets/js/contact-me.js"></script>
+  </body>
+</html>

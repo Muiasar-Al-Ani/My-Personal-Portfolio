@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(14, 13, 13);
+  color: white;
+}
+
+.navbar-text {
+  color: white !important;
+}
+
+.name-text {
+  font-size: 1.5rem;
+}
+
+.description-text {
+  font-size: 1.3rem;
+}
+a {
+  text-decoration: none;
+  color: teal;
+}
+
+.nav-link:hover {
+  color: teal !important;
+}
+
+.btn {
+  color: teal;
+}
+
+#button-teal {
+  color: white;
+  background-color: teal;
+}
+
+.btn:hover,
+a:hover {
+  color: rgb(14, 165, 165);
+}
+
+#button-teal:hover {
+  background-color: rgb(14, 165, 165);
+}
+
+#home,
+#about,
+#contact,
+#work {
+  color: teal !important;
+}
+
+.skills {
+  text-align: right;
+  color: transparent;
+  border-radius: 10px;
+  height: 15px;
+}
+
+.html {
+  width: 0%;
+  background-color: teal;
+}
+.css {
+  width: 0%;
+  background-color: teal;
+}
+.js {
+  width: 0%;
+  background-color: teal;
+}
+.react {
+  width: 0%;
+  background-color: teal;
+}
+.jquery {
+  width: 0%;
+  background-color: teal;
+}
+.node {
+  width: 0%;
+  background-color: teal;
+}
+.express {
+  width: 0%;
+  background-color: teal;
+}
+.sql {
+  width: 0%;
+  background-color: teal;
+}
+.mysql {
+  width: 0%;
+  background-color: teal;
+}
+.git {
+  width: 0%;
+  background-color: teal;
+}
+.mongo {
+  width: 0%;
+  background-color: teal;
+}
+.boot {
+  width: 0%;
+  background-color: teal;
+}
+.mater {
+  width: 0%;
+  background-color: teal;
+}
+.vue {
+  width: 0%;
+  background-color: teal;
+}
+.php {
+  width: 0%;
+  background-color: teal;
+}
+
+.container-bar {
+  background-color: rgb(39, 224, 224);
+  border-radius: 10px;
+}
+
+.my-image {
+  border-radius: 10px;
+}
