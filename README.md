@@ -5,7 +5,7 @@
 
 - [Description](#description-)
 - [Licenses](#licenses-)
-- [Usage](#usage-)
+- [Installation](#installation-)
 - [Technologies](#technologies-)
 - [Screen shots](#screen-shots-)
 - [Credits](#credits-)
@@ -20,13 +20,20 @@ This is my personal portfolio which I created using Bootstrap as my CSS framewor
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
+## Installation :
 
+To install the RWP App use the instructions bellow &#8595;
 
+```
+Mac:
+open index.html
 
+Windows:
+start index.html
 
-
-## Usage : 
-
+Linux:
+xdg-open index.html
+```
 
 ## Technologies : 
 
@@ -38,9 +45,9 @@ This is my personal portfolio which I created using Bootstrap as my CSS framewor
 -  Formspree Email Client.
 
 ## Screen shots : 
-### Here are screen shots of my deployed Personal Portfolio App!![ScreenShot](sld;fj;s)![ScreenShot]()![ScreenShot](sd;ljf;sdljfk)![ScreenShot](a;dljsfk;sdf)
+### Here are screen shots of my deployed Personal Portfolio App!![ScreenShot](./assets/screenshots/MuiasarAlAni1.png)![ScreenShot](./assets/screenshots/MuiasarAlAni2.png)![ScreenShot](./assets/screenshots/MuiasarAlAni3.png)![ScreenShot](./assets/screenshots/MuiasarAlAni4.png)
 
-[The Demo Video]()
+
 
 ## Credits :
 
@@ -60,4 +67,4 @@ If you have any Question please feel free to contact me:
 
 
 
-&copy; 2021 [Personal Portfolio](https://github.com/Muiasar-Al-Ani)
+&copy; 2021 [Muiasar-Al-Ani](https://github.com/Muiasar-Al-Ani)
