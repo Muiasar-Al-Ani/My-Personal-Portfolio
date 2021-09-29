@@ -14,7 +14,7 @@
 
 
 ## Description : 
-This is my personal portfolio which I created using Bootstrap as my CSS framework and javascript. I also used GSAP 3 for animation and used the Formspree as my email client. 
+This is my personal portfolio which I created using Bootstrap as my CSS framework and javascript. I also used GSAP 3 for animation and used the Formspree.io as my email client. 
 
 ## Licenses :
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
